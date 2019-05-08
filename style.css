@@ -1,0 +1,665 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:300,400,700");
+/* Navigation */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+.navbar {
+  background-color: #ffffff;
+  /* color: black; */
+}
+
+.navbar .navbar-brand {
+  margin-left: 50px;
+}
+
+.navbar .navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar .navbar-brand span {
+}
+
+.navbar-nav {
+  margin-right: 50px;
+  height: 50px;
+}
+
+.navbar-nav .nav-item {
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  color: black;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 0px;
+  height: 30px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(0, 100, 0, 0.75);
+  font-weight: 400;
+}
+
+.navbar-nav .dropdown-toggle:after {
+  content: none;
+}
+
+/*  Carousel */
+.carousel .container-fluid {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.carousel .carousel-item img {
+  height: 650px;
+}
+
+.carousel .carousel-caption {
+  background-color: rgba(105, 105, 105, 0.4);
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.carousel .carousel-caption .carousel-box {
+  background-color: hsla(0, 0%, 35%, 0.4);
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  width: 900px;
+  height: 400px;
+  margin-top: 200px;
+  margin-left: 50px;
+  padding-top: 130px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.carousel .carousel-caption .carousel-box hr {
+  border-top: 2px solid #8bc13f;
+}
+
+.carousel .carousel-caption .carousel-box h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+  text-align: left;
+}
+
+.carousel .carousel-caption .carousel-box p {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+/*  Services */
+.services-home {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.services-home .content-img img {
+  height: 500px;
+  width: 500px;
+}
+
+.services-home h2 {
+  margin-top: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+}
+
+.services-home .content p {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.services-home hr {
+  border-top: 4px solid #00640073;
+  width: 40%;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+/*  Register */
+.register-home {
+}
+.register-home .container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+.register-home .content h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.register-home .content ul {
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+.register-home .content li {
+  float: left;
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 2.5em;
+}
+
+/* Offerings */
+.offerings {
+  margin-top: 100px;
+  background-color: #00640026;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.offerings .container-fluid {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.offerings .card {
+  border: 0px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.offerings .card-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.7em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.offerings .card-body {
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+}
+
+.offerings .card hr {
+  width: 50%;
+  border-top: 4px solid #00640073;
+}
+
+.offerings .card img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid darkgoldenrod;
+  padding: 10px;
+}
+.offerings .card span {
+  border-radius: 50%;
+}
+/*  Customer Testimonials */
+.customer-testimonials {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.customer-testimonials h2 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  margin: 0 0 60px;
+  font-family: "Montserrat", sans-serif;
+}
+.customer-testimonials h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 4px;
+  border-radius: 1px;
+  background: #1abc9c;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+}
+.customer-testimonials .carousel {
+  margin: 0 auto;
+  padding: 0 70px;
+}
+.customer-testimonials .carousel .item {
+  color: #999;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 13px;
+}
+.customer-testimonials .carousel .media {
+  position: relative;
+  padding: 0 0 0 20px;
+  margin-top: 50px;
+}
+.customer-testimonials .carousel .media img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  border-radius: 50%;
+}
+.customer-testimonials .carousel .testimonial-wrapper {
+  padding: 0 10px;
+}
+.customer-testimonials .carousel .testimonial {
+  color: #808080;
+  position: relative;
+  padding: 15px;
+  background: #f1f1f1;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.customer-testimonials .carousel .testimonial::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  background: #f1f1f1;
+  border: 1px solid #efefef;
+  border-width: 0 0 1px 1px;
+  position: absolute;
+  bottom: -8px;
+  left: 46px;
+  transform: rotateZ(-46deg);
+}
+.customer-testimonials .carousel .star-rating li {
+  padding: 0 2px;
+}
+.customer-testimonials .carousel .star-rating i {
+  font-size: 16px;
+  color: red;
+}
+.customer-testimonials .carousel .overview {
+  padding: 3px 0 0 15px;
+}
+.carousel .overview .details {
+  padding: 5px 0 8px;
+}
+.carousel .overview b {
+  text-transform: uppercase;
+  color: #1abc9c;
+}
+.customer-testimonials .carousel .carousel-indicators {
+  bottom: -120px;
+}
+.customer-testimonials .carousel-indicators li,
+.carousel-indicators li.active {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: 1px 2px;
+}
+.customer-testimonials .carousel-indicators li {
+  background: #e2e2e2;
+  border: 4px solid #fff;
+}
+.customer-testimonials .carousel-indicators li.active {
+  color: #fff;
+  background: #1abc9c;
+  border: 5px double;
+}
+
+/*  Contact Us */
+.contact-us {
+  background-color: #def3f8;
+}
+
+.contact-us h2 {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.contact-us .content {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.contact-us .content-img img {
+  margin-top: 0px;
+  height: 600px;
+  width: 600px;
+}
+
+.contact-us .content label {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.contact-us .content button {
+  padding: 10px 50px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin-left: 0px;
+}
+
+.contact-us .content .form-control {
+  border: 0px solid;
+  border-bottom: 1px dashed;
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+}
+
+.contact-us .content .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/*  Footer */
+.footer {
+  padding-top: 100px;
+  background-color: #006400bf;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: #ffffff;
+}
+
+.footer h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-left: 0px;
+}
+
+.footer ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.footer p,
+li {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+.footer hr {
+  border-top: 1px solid #ffffff;
+  width: 50%;
+  margin-left: 0px;
+}
+.footer img {
+  height: 200px;
+  width: 200px;
+  margin-left: 90px;
+}
+
+/*  About Us Page */
+.about-us-header {
+  height: 300px;
+  background-color: #00640026;
+}
+
+.about-us-header a {
+  color: #000000;
+}
+
+.about-us-header a:hover {
+  text-decoration: none;
+}
+
+.about-us-header h2 {
+  font-size: 5em;
+  font-weight: 700;
+  height: 100px;
+  padding: 0px;
+  margin-top: 80px;
+}
+
+.about-us-content {
+  margin-top: 50px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.about-us-content img {
+  margin-top: 5px;
+  margin-left: 50px;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: 2px solid #8bc13f;
+  padding: 10px;
+}
+
+.about-us-content .content-img .img {
+  margin-left: 0px;
+}
+.about-us-content p {
+  font-weight: 300;
+  line-height: 1.7em;
+}
+
+.about-us-content li {
+  list-style: none;
+}
+
+.about-us-content .active {
+  background-color: hsla(120, 100%, 20%, 0.749);
+  border: 1px solid;
+}
+
+.about-us-content a {
+  color: #000000;
+}
+
+.about-us-content a:hover {
+  text-decoration: none;
+}
+
+.about-us-content .content-text {
+  margin-top: 100px;
+}
+
+.about-us-content .content-text h5 {
+  font-size: 1.7em;
+  font-weight: 400;
+}
+
+.about-us-content .content-text hr {
+  border-top: 2px solid #8bc13f;
+  width: 50%;
+  margin-left: 0px;
+}
+
+.about-us-content .content-text-2 {
+  margin-top: 150px;
+}
+
+.about-us-content .content-text-2 h5 {
+  font-size: 1.7em;
+  font-weight: 400;
+  text-align: right;
+}
+
+.about-us-content .content-text-2 hr {
+  border-top: 2px solid #8bc13f;
+  width: 50%;
+  margin-left: 50%;
+}
+
+/* Study Abroad */
+.study-abroad-header {
+  height: 300px;
+  background-color: #00640026;
+}
+
+.study-abroad-header a {
+  color: #000000;
+}
+
+.study-abroad-header a:hover {
+  text-decoration: none;
+}
+
+.study-abroad-header h2 {
+  font-size: 5em;
+  font-weight: 700;
+  height: 100px;
+  padding: 0px;
+  margin-top: 80px;
+}
+
+.study-abroad-content {
+  margin-top: 50px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.study-abroad-content img {
+  margin-top: 5px;
+  margin-left: 50px;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.study-abroad-content p {
+  font-weight: 300;
+  line-height: 1.7em;
+}
+
+.study-abroad-content li {
+  list-style: none;
+}
+
+.study-abroad-content .active {
+  background-color: hsla(120, 100%, 20%, 0.749);
+  border: 1px solid;
+}
+
+.study-abroad-content a {
+  color: #000000;
+}
+
+.study-abroad-content a:hover {
+  text-decoration: none;
+}
+
+.study-abroad-content .countries {
+  text-align: left;
+}
+
+/* Training */
+.training-header {
+  height: 300px;
+  background-color: #00640026;
+}
+
+.training-header a {
+  color: #000000;
+}
+
+.training-header a:hover {
+  text-decoration: none;
+}
+
+.training-header h2 {
+  font-size: 5em;
+  font-weight: 700;
+  height: 100px;
+  padding: 0px;
+  margin-top: 80px;
+}
+
+.training-content {
+  margin-top: 50px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.training-content .content img {
+  height: 500px;
+  width: 100%;
+}
+
+.training-content p {
+  font-weight: 300;
+  line-height: 1.7em;
+}
+
+.training-content li {
+  list-style: none;
+}
+
+.training-content .active {
+  background-color: hsla(120, 100%, 20%, 0.749);
+  border: 1px solid;
+}
+
+.training-content a {
+  color: #000000;
+}
+
+.training-content a:hover {
+  text-decoration: none;
+}
+
+.training-content .countries {
+  text-align: left;
+}
+
+.training-content .content .content-text {
+  /* margin-right: 50px; */
+  margin-top: 30px;
+}
+
+.training-content .content .content-text h5 {
+  font-weight: 400;
+  font-size: 1.7em;
+}
+
+.training-content .content .content-text hr {
+  border-top: 2px solid #8bc13f;
+  width: 30%;
+  margin-left: 0px;
+}
+
+.training-content .content .content-text .card-header {
+  background-color: #8bc13f;
+}
+
+.training-content .content .content-text .btn {
+  color: #ffffff;
+}
+
+.training-content .content .content-text .btn:hover {
+  text-decoration: none;
+}
