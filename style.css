@@ -146,8 +146,7 @@ p {
 }
 
 /*  Register */
-.register-home {
-}
+
 .register-home .container-fluid {
   margin: 0px;
   padding: 0px;
@@ -245,7 +244,7 @@ p {
   margin: 0 auto;
   height: 4px;
   border-radius: 1px;
-  background: #1abc9c;
+  background: #00640073;
   left: 0;
   right: 0;
   bottom: -20px;
@@ -311,7 +310,7 @@ p {
 }
 .carousel .overview b {
   text-transform: uppercase;
-  color: #1abc9c;
+  color: #00640073;
 }
 .customer-testimonials .carousel .carousel-indicators {
   bottom: -120px;
@@ -329,7 +328,7 @@ p {
 }
 .customer-testimonials .carousel-indicators li.active {
   color: #fff;
-  background: #1abc9c;
+  background: #00640073;
   border: 5px double;
 }
 
